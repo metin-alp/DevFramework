@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\DevFramework.Northwind.MvcWebUI.Tests.csproj": {}
+  },
+  "projects": {
+    "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
+        "projectName": "DevFramework.Core",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
+        "packagesPath": "C:\\Users\\PelinAlp\\.nuget\\packages\\",
+        "outputPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PelinAlp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Ninject.MVC5": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[4.2.17, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj",
+        "projectName": "DevFramework.Northwind.Business",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj",
+        "packagesPath": "C:\\Users\\PelinAlp\\.nuget\\packages\\",
+        "outputPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PelinAlp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              },
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\DevFramework.Northwind.DataAccess.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\DevFramework.Northwind.DataAccess.csproj"
+              },
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[4.2.17, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\DevFramework.Northwind.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\DevFramework.Northwind.DataAccess.csproj",
+        "projectName": "DevFramework.Northwind.DataAccess",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\DevFramework.Northwind.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\PelinAlp\\.nuget\\packages\\",
+        "outputPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PelinAlp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              },
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj",
+        "projectName": "DevFramework.Northwind.Entities",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\DevFramework.Northwind.MvcWebUI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\DevFramework.Northwind.MvcWebUI.Tests.csproj",
+        "projectName": "DevFramework.Northwind.MvcWebUI.Tests",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\DevFramework.Northwind.MvcWebUI.Tests.csproj",
+        "packagesPath": "C:\\Users\\PelinAlp\\.nuget\\packages\\",
+        "outputPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\PelinAlp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI\\DevFramework.Northwind.MvcWebUI.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI\\DevFramework.Northwind.MvcWebUI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI\\DevFramework.Northwind.MvcWebUI.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI\\DevFramework.Northwind.MvcWebUI.csproj",
+        "projectName": "DevFramework.Northwind.MvcWebUI",
+        "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI\\DevFramework.Northwind.MvcWebUI.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj"
+              },
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj"
+              },
+              "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj": {
+                "projectPath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Entities\\DevFramework.Northwind.Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
