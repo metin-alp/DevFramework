@@ -117,17 +117,13 @@
           "lib/net46/K4os.Hash.xxHash.dll": {}
         }
       },
-      "log4net/2.0.12": {
+      "log4net/2.0.8": {
         "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration",
-          "System.Web"
-        ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc/5.2.3": {
@@ -671,13 +667,85 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.2.17": {
+      "PostSharp/4.3.21": {
         "type": "package",
         "compile": {
           "lib/net35-client/PostSharp.dll": {}
         },
         "runtime": {
           "lib/net35-client/PostSharp.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Common/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Common.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Log4Net/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)",
+          "log4net": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        }
+      },
+      "PostSharp.Redist/6.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PostSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -845,9 +913,11 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.2.17",
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.8"
         },
         "compile": {
           "bin/placeholder/DevFramework.Core.dll": {}
@@ -985,17 +1055,13 @@
           "lib/net46/K4os.Hash.xxHash.dll": {}
         }
       },
-      "log4net/2.0.12": {
+      "log4net/2.0.8": {
         "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration",
-          "System.Web"
-        ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc/5.2.3": {
@@ -1539,13 +1605,85 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.2.17": {
+      "PostSharp/4.3.21": {
         "type": "package",
         "compile": {
           "lib/net35-client/PostSharp.dll": {}
         },
         "runtime": {
           "lib/net35-client/PostSharp.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Common/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Common.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Log4Net/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)",
+          "log4net": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        }
+      },
+      "PostSharp.Redist/6.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PostSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -1697,9 +1835,11 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.2.17",
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.8"
         },
         "compile": {
           "bin/placeholder/DevFramework.Core.dll": {}
@@ -1837,17 +1977,13 @@
           "lib/net46/K4os.Hash.xxHash.dll": {}
         }
       },
-      "log4net/2.0.12": {
+      "log4net/2.0.8": {
         "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration",
-          "System.Web"
-        ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc/5.2.3": {
@@ -2391,13 +2527,85 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.2.17": {
+      "PostSharp/4.3.21": {
         "type": "package",
         "compile": {
           "lib/net35-client/PostSharp.dll": {}
         },
         "runtime": {
           "lib/net35-client/PostSharp.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Common/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Common.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Log4Net/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)",
+          "log4net": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        }
+      },
+      "PostSharp.Redist/6.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PostSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -2549,9 +2757,11 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.2.17",
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.8"
         },
         "compile": {
           "bin/placeholder/DevFramework.Core.dll": {}
@@ -2689,17 +2899,13 @@
           "lib/net46/K4os.Hash.xxHash.dll": {}
         }
       },
-      "log4net/2.0.12": {
+      "log4net/2.0.8": {
         "type": "package",
-        "frameworkAssemblies": [
-          "System.Configuration",
-          "System.Web"
-        ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45-full/log4net.dll": {}
         }
       },
       "Microsoft.AspNet.Mvc/5.2.3": {
@@ -3243,13 +3449,85 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.2.17": {
+      "PostSharp/4.3.21": {
         "type": "package",
         "compile": {
           "lib/net35-client/PostSharp.dll": {}
         },
         "runtime": {
           "lib/net35-client/PostSharp.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Common/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Common.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Common.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common": "[6.9.5, 7.0.0)",
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Log4Net/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Diagnostics.Redist": "[6.9.5, 7.0.0)",
+          "log4net": "2.0.0"
+        },
+        "compile": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Diagnostics.Redist/6.9.5": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common.Redist": "[6.9.5, 7.0.0)"
+        },
+        "compile": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net47/PostSharp.Patterns.Diagnostics.dll": {}
+        }
+      },
+      "PostSharp.Redist/6.9.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/PostSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/PostSharp.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -3401,9 +3679,11 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.2.17",
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
-          "log4net": "2.0.12"
+          "log4net": "2.0.8"
         },
         "compile": {
           "bin/placeholder/DevFramework.Core.dll": {}
@@ -3651,32 +3931,28 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.xml"
       ]
     },
-    "log4net/2.0.12": {
-      "sha512": "9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
+    "log4net/2.0.8": {
+      "sha512": "N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
       "type": "package",
-      "path": "log4net/2.0.12",
+      "path": "log4net/2.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net20/log4net.dll",
-        "lib/net20/log4net.xml",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
         "lib/net35-client/log4net.dll",
         "lib/net35-client/log4net.xml",
-        "lib/net35/log4net.dll",
-        "lib/net35/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
         "lib/net40-client/log4net.dll",
         "lib/net40-client/log4net.xml",
-        "lib/net40/log4net.dll",
-        "lib/net40/log4net.xml",
-        "lib/net45/log4net.dll",
-        "lib/net45/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
         "lib/netstandard1.3/log4net.dll",
-        "lib/netstandard1.3/log4net.xml",
-        "lib/netstandard2.0/log4net.dll",
-        "lib/netstandard2.0/log4net.xml",
-        "log4net.2.0.12.nupkg.sha512",
-        "log4net.nuspec",
-        "package-icon.png"
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
       ]
     },
     "Microsoft.AspNet.Mvc/5.2.3": {
@@ -4278,10 +4554,10 @@
         "ninject.web.common.webhost.nuspec"
       ]
     },
-    "PostSharp/4.2.17": {
-      "sha512": "b7THtwQmAxkDwo5+AGIE6mysPx8QY/v2rV6yxfh8ByWkidZ70V5Ssy1sqIK9ao4wMec2T3r1obUGxrR/lpIf2A==",
+    "PostSharp/4.3.21": {
+      "sha512": "yRwyl2tNIur8d9JJJEMcjO2Cx909L+H8deQKim03Br4igM6si/dnFy5axbch/O3/wR0ncZwKnw1365F4CZRVfQ==",
       "type": "package",
-      "path": "postsharp/4.2.17",
+      "path": "postsharp/4.3.21",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -4290,16 +4566,144 @@
         "lib/net35-client/PostSharp.xml",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.dll",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.xml",
-        "postsharp.4.2.17.nupkg.sha512",
+        "postsharp.4.3.21.nupkg.sha512",
         "postsharp.nuspec",
         "tools/PostSharp-Tools.exe",
-        "tools/PostSharp.MSBuild.v4.2.17.Release.dll",
+        "tools/PostSharp.MSBuild.v4.3.21.Release.dll",
         "tools/PostSharp.Version.properties",
         "tools/PostSharp.properties",
         "tools/PostSharp.targets",
         "tools/PostSharp.tasks",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "PostSharp.Patterns.Common/6.9.5": {
+      "sha512": "HJbbwj+cnu6F4qYZhwCjr0yWz0zU7IYKM6d7iIDoZLF1DdrpXRUm7nPbT5VlssD1FCvh0RoWBkqMCRuPBcEgtg==",
+      "type": "package",
+      "path": "postsharp.patterns.common/6.9.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net40/_._",
+        "lib/netstandard1.3/_._",
+        "postsharp.patterns.common.6.9.5.nupkg.sha512",
+        "postsharp.patterns.common.nuspec",
+        "tools/PostSharp.Patterns.Common.Weaver.dll"
+      ]
+    },
+    "PostSharp.Patterns.Common.Redist/6.9.5": {
+      "sha512": "OOuMPunun3Sv28MavKhAm6db+WsrDSVGx1Slz2tZQfX32YYjel1Flqv7U0S+bXJe2zk62W5APeFuQzSTpztpgw==",
+      "type": "package",
+      "path": "postsharp.patterns.common.redist/6.9.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Common.dll",
+        "lib/net45/PostSharp.Patterns.Common.xml",
+        "lib/net46/PostSharp.Patterns.Common.dll",
+        "lib/net46/PostSharp.Patterns.Common.xml",
+        "lib/net47/PostSharp.Patterns.Common.dll",
+        "lib/net47/PostSharp.Patterns.Common.xml",
+        "lib/net5.0/PostSharp.Patterns.Common.dll",
+        "lib/net5.0/PostSharp.Patterns.Common.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Common.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Common.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Common.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Common.xml",
+        "postsharp.patterns.common.redist.6.9.5.nupkg.sha512",
+        "postsharp.patterns.common.redist.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Diagnostics/6.9.5": {
+      "sha512": "Hzrk25AlgGab7ng65RvWzD4JyOQoHnrMXDd+YYLZSl0kCjnDxSaCs4RhwN/H57KzCltUaL8tlDB03aaY19vT4g==",
+      "type": "package",
+      "path": "postsharp.patterns.diagnostics/6.9.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net40/_._",
+        "lib/netstandard1.3/_._",
+        "postsharp.patterns.diagnostics.6.9.5.nupkg.sha512",
+        "postsharp.patterns.diagnostics.nuspec",
+        "tools/PostSharp.Patterns.Diagnostics.Weaver.dll"
+      ]
+    },
+    "PostSharp.Patterns.Diagnostics.Log4Net/6.9.5": {
+      "sha512": "eXBVIirMoDJJNwXwBVM12e46vMGhFpV4ukpFuYyX6P4fcQfSDGh31rfzXN7o2GCNyoPA7Zdj7f+L2Lnn2VlMEQ==",
+      "type": "package",
+      "path": "postsharp.patterns.diagnostics.log4net/6.9.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll",
+        "lib/net45/PostSharp.Patterns.Diagnostics.Backends.Log4Net.xml",
+        "lib/net5.0/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll",
+        "lib/net5.0/PostSharp.Patterns.Diagnostics.Backends.Log4Net.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Diagnostics.Backends.Log4Net.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Diagnostics.Backends.Log4Net.xml",
+        "postsharp.patterns.diagnostics.log4net.6.9.5.nupkg.sha512",
+        "postsharp.patterns.diagnostics.log4net.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Diagnostics.Redist/6.9.5": {
+      "sha512": "qGlboU7fsRM80Ibl6YlF2CxLP1XpBL6Bl5/egmaKw1DhaX01pGcaPZtMRWF40r9nBnVaamSLYxcPIPWvQG809w==",
+      "type": "package",
+      "path": "postsharp.patterns.diagnostics.redist/6.9.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Diagnostics.dll",
+        "lib/net45/PostSharp.Patterns.Diagnostics.xml",
+        "lib/net46/PostSharp.Patterns.Diagnostics.dll",
+        "lib/net46/PostSharp.Patterns.Diagnostics.xml",
+        "lib/net47/PostSharp.Patterns.Diagnostics.dll",
+        "lib/net47/PostSharp.Patterns.Diagnostics.xml",
+        "lib/net5.0/PostSharp.Patterns.Diagnostics.dll",
+        "lib/net5.0/PostSharp.Patterns.Diagnostics.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Diagnostics.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Diagnostics.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Diagnostics.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Diagnostics.xml",
+        "postsharp.patterns.diagnostics.redist.6.9.5.nupkg.sha512",
+        "postsharp.patterns.diagnostics.redist.nuspec"
+      ]
+    },
+    "PostSharp.Redist/6.9.5": {
+      "sha512": "AgKVOcrnVorDAMnRKJd+x2hv5Ww7Gt6h9yuVJoRLc/gNojfft5L0GPwINcw8wDbkScdZtdaeYE7mEWQDoF9B8A==",
+      "type": "package",
+      "path": "postsharp.redist/6.9.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net35-client/PostSharp.dll",
+        "lib/net35-client/PostSharp.xml",
+        "lib/net45/PostSharp.dll",
+        "lib/net45/PostSharp.xml",
+        "lib/net5.0/PostSharp.dll",
+        "lib/net5.0/PostSharp.xml",
+        "lib/netstandard1.3/PostSharp.dll",
+        "lib/netstandard1.3/PostSharp.xml",
+        "lib/netstandard2.0/PostSharp.dll",
+        "lib/netstandard2.0/PostSharp.xml",
+        "postsharp.redist.6.9.5.nupkg.sha512",
+        "postsharp.redist.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -4799,6 +5203,19 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.DataAccess -> DevFramework.Core -> PostSharp.Patterns.Diagnostics 6.9.5 -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.DataAccess -> DevFramework.Core -> PostSharp (>= 4.3.21)",
+      "libraryId": "PostSharp",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

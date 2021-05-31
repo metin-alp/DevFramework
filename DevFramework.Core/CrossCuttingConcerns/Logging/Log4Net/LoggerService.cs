@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
+using PostSharp.Serialization;
 
 namespace DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net
 {
-    [Serializable]
+    [PSerializableAttribute]
     public class LoggerService
     {
         private ILog _log;

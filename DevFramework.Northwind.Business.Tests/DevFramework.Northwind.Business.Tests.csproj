@@ -70,7 +70,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="PostSharp">
-      <Version>4.2.17</Version>
+      <Version>4.3.21</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

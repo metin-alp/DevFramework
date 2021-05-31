@@ -68,7 +68,15 @@
             },
             "PostSharp": {
               "target": "Package",
-              "version": "[4.2.17, )"
+              "version": "[4.3.21, )"
+            },
+            "PostSharp.Patterns.Diagnostics": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Diagnostics.Log4Net": {
+              "target": "Package",
+              "version": "[6.9.5, )"
             },
             "System.Runtime.Caching": {
               "target": "Package",
@@ -76,7 +84,7 @@
             },
             "log4net": {
               "target": "Package",
-              "version": "[2.0.12, )"
+              "version": "[2.0.8, )"
             }
           }
         }

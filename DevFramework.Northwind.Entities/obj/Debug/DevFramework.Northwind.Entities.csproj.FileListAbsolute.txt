@@ -1,6 +1,7 @@
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\DevFramework.Northwind.Entities.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\DevFramework.Northwind.Entities.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\DevFramework.Core.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\PostSharp.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\System.Web.Mvc.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\Ninject.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\NHibernate.dll
@@ -8,7 +9,6 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\FluentNHibe
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\EntityFramework.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\FluentValidation.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\log4net.dll
-F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\PostSharp.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\Newtonsoft.Json.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\System.Web.Razor.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\System.Web.WebPages.Razor.dll

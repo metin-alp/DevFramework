@@ -58,6 +58,9 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Ninject.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Ninject.Web.Mvc.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Ninject.Web.Common.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Ninject.Web.Common.WebHost.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\PostSharp.Patterns.Common.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\PostSharp.Patterns.Diagnostics.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\PostSharp.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Remotion.Linq.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Remotion.Linq.EagerFetching.dll

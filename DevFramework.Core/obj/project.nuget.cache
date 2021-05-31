@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9aYvElpsmlq34jM7Fk4wGbdhLZ1kfeOLQGeD3IZ9l2DfClJCb/J3bHve2vuOgKbz7fy/n0zqjtBVDoZNUNEpxQ==",
+  "dgSpecHash": "cfanoY/U2dSOvS7s+d5fsPaKPpOzksZhHUdjC+uv8qmtnMvqr78aeL+5er7oTtcM41SaJqLunQZe1NHGGgVm1w==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentnhibernate\\3.1.0\\fluentnhibernate.3.1.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
-    "C:\\Users\\PelinAlp\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.3\\microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.3\\microsoft.aspnet.razor.3.2.3.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.3\\microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
@@ -48,7 +48,13 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.mvc5\\3.3.0\\ninject.mvc5.3.3.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.web.common\\3.3.0\\ninject.web.common.3.3.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.web.common.webhost\\3.3.0\\ninject.web.common.webhost.3.3.0.nupkg.sha512",
-    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp\\4.2.17\\postsharp.4.2.17.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp\\4.3.21\\postsharp.4.3.21.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.common\\6.9.5\\postsharp.patterns.common.6.9.5.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.common.redist\\6.9.5\\postsharp.patterns.common.redist.6.9.5.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.diagnostics\\6.9.5\\postsharp.patterns.diagnostics.6.9.5.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.diagnostics.log4net\\6.9.5\\postsharp.patterns.diagnostics.log4net.6.9.5.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.diagnostics.redist\\6.9.5\\postsharp.patterns.diagnostics.redist.6.9.5.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.redist\\6.9.5\\postsharp.redist.6.9.5.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\remotion.linq.eagerfetching\\2.2.0\\remotion.linq.eagerfetching.2.2.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
@@ -63,6 +69,19 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Core -> PostSharp.Patterns.Diagnostics 6.9.5 -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Core -> PostSharp (>= 4.3.21)",
+      "libraryId": "PostSharp",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

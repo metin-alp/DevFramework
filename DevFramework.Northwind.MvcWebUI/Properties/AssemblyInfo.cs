@@ -1,18 +1,26 @@
-﻿using System.Reflection;
+﻿using System.Diagnostics;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using log4net.Config;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
+[assembly: Debuggable(true, true)]
 [assembly: AssemblyTitle("DevFramework.Northwind.MvcWebUI")]
 [assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DevFramework.Northwind.MvcWebUI")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+//[assembly: RepositoryAttribute("DevFramework.Northwind.MvcWebUI")]
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+//[assembly: XmlConfigurator()]
+//[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]
+
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
