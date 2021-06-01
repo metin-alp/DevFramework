@@ -21,7 +21,7 @@ namespace DevFramework.Core.Aspects.Postsharp.LogAspects
     [Serializable]
     //[OnMethodBoundaryAspectConfiguration(SerializerType = typeof(MsilAspectSerializer))]
     //[MulticastAttributeUsage(MulticastTargets.Method, TargetMemberAttributes = MulticastAttributes.Instance)]
-    public class LogAspect : OnMethodBoundaryAspect, IInstanceScopedAspect
+    public class LogAspect : OnMethodBoundaryAspect
     {
 
         private Type _loggerType;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n3WUU8rGIO0iIIg1hhUQBMe9BkYuNrsnUXUZuTm5E8OiBrUheUB2+mLAaj1pJbkBwOuoOaQHAHco0JteMW4sAQ==",
+  "dgSpecHash": "2Xp2QthNhK2Z6KZ85lKRgdIN/uQGr4zQHyjZVwiiwlACEHz6uQEYxDbnjL3SiIW0eyLzcQZpBC5l3H4NKls0yg==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business\\DevFramework.Northwind.Business.csproj",
   "expectedPackageFiles": [
@@ -79,7 +79,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.Business -> DevFramework.Core -> PostSharp.Patterns.Diagnostics 6.9.5 -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.Business -> PostSharp (>= 4.3.21)",
+      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.Business -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.Business -> PostSharp (>= 4.3.21)",
       "libraryId": "PostSharp",
       "targetGraphs": [
         ".NETFramework,Version=v4.7.2",

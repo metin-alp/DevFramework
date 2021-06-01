@@ -61,6 +61,24 @@
     <PackageReference Include="PostSharp">
       <Version>4.3.21</Version>
     </PackageReference>
+    <PackageReference Include="PostSharp.Patterns.Common">
+      <Version>6.9.5</Version>
+    </PackageReference>
+    <PackageReference Include="PostSharp.Patterns.Common.Redist">
+      <Version>6.9.5</Version>
+    </PackageReference>
+    <PackageReference Include="PostSharp.Patterns.Diagnostics">
+      <Version>6.9.5</Version>
+    </PackageReference>
+    <PackageReference Include="PostSharp.Patterns.Diagnostics.Log4Net">
+      <Version>6.9.5</Version>
+    </PackageReference>
+    <PackageReference Include="PostSharp.Patterns.Diagnostics.Redist">
+      <Version>6.9.5</Version>
+    </PackageReference>
+    <PackageReference Include="PostSharp.Redist">
+      <Version>6.9.5</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevFramework.Core\DevFramework.Core.csproj">

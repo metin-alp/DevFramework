@@ -1029,7 +1029,13 @@
           "EntityFramework": "6.4.4",
           "FluentValidation": "10.1.0",
           "Ninject": "3.2.2",
-          "PostSharp": "4.3.21"
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Common": "6.9.5",
+          "PostSharp.Patterns.Common.Redist": "6.9.5",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Redist": "6.9.5",
+          "PostSharp.Redist": "6.9.5"
         },
         "compile": {
           "bin/placeholder/DevFramework.Northwind.Business.dll": {}
@@ -2081,7 +2087,13 @@
           "EntityFramework": "6.4.4",
           "FluentValidation": "10.1.0",
           "Ninject": "3.2.2",
-          "PostSharp": "4.3.21"
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Common": "6.9.5",
+          "PostSharp.Patterns.Common.Redist": "6.9.5",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Redist": "6.9.5",
+          "PostSharp.Redist": "6.9.5"
         },
         "compile": {
           "bin/placeholder/DevFramework.Northwind.Business.dll": {}
@@ -3133,7 +3145,13 @@
           "EntityFramework": "6.4.4",
           "FluentValidation": "10.1.0",
           "Ninject": "3.2.2",
-          "PostSharp": "4.3.21"
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Common": "6.9.5",
+          "PostSharp.Patterns.Common.Redist": "6.9.5",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Redist": "6.9.5",
+          "PostSharp.Redist": "6.9.5"
         },
         "compile": {
           "bin/placeholder/DevFramework.Northwind.Business.dll": {}
@@ -4185,7 +4203,13 @@
           "EntityFramework": "6.4.4",
           "FluentValidation": "10.1.0",
           "Ninject": "3.2.2",
-          "PostSharp": "4.3.21"
+          "PostSharp": "4.3.21",
+          "PostSharp.Patterns.Common": "6.9.5",
+          "PostSharp.Patterns.Common.Redist": "6.9.5",
+          "PostSharp.Patterns.Diagnostics": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
+          "PostSharp.Patterns.Diagnostics.Redist": "6.9.5",
+          "PostSharp.Redist": "6.9.5"
         },
         "compile": {
           "bin/placeholder/DevFramework.Northwind.Business.dll": {}
@@ -6080,6 +6104,19 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.Business.Tests -> DevFramework.Northwind.Business -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.Business.Tests -> PostSharp (>= 4.3.21)",
+      "libraryId": "PostSharp",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

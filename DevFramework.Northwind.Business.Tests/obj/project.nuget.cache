@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LZsnVOxfHYULu/8fwAYoCeSkFFkK9E04cN53L22zwG9pdS2OZt4A56exFgV/VD4U62HQF65mGzQXyQIObMpjmw==",
+  "dgSpecHash": "tOJagZ1fWs0aMV3zpix6RsUfxTY4lc5FU5u23khsWmSNWyMuNtYWb96YwivEf4rARkOptCIuFq0eSoRLOZAbxg==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business.Tests\\DevFramework.Northwind.Business.Tests.csproj",
   "expectedPackageFiles": [
@@ -83,6 +83,19 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.Business.Tests -> DevFramework.Northwind.Business -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.Business.Tests -> PostSharp (>= 4.3.21)",
+      "libraryId": "PostSharp",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

@@ -11,9 +11,15 @@
     <title>Index</title>
 </head>
 <body>
-    @using (Html.BeginForm(FormMethod.Post))
-            {
-                <input type="submit" value="List"formaction="@Url.Action("List")"/>
-            }
+    <div>
+        @foreach (var product in Model.Products)
+        {
+            @product.ProductName<br>
+        }
+    </div>
+    @*@using (Html.BeginForm(FormMethod.Post))
+        {
+            <input type="submit" value="List"formaction="@Url.Action("List")"/>
+        }*@
 </body>
 </html>

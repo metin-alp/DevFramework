@@ -1,3 +1,5 @@
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.pssym
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.pspdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\log4net.config
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.dll.config
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.dll
@@ -62,7 +64,9 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Microsoft.Web.Inf
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Newtonsoft.Json.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Common.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Diagnostics.Backends.Log4Net.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Diagnostics.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\System.Net.Http.Formatting.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\System.Web.Helpers.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\System.Web.Mvc.dll
@@ -86,6 +90,9 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\EntityFramework.S
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\log4net.xml
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Newtonsoft.Json.xml
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Ninject.xml
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.xml
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Common.xml
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Diagnostics.xml
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\PostSharp.Patterns.Diagnostics.Backends.Log4Net.xml
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\System.Net.Http.Formatting.xml
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\System.Web.Razor.xml
@@ -98,13 +105,11 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\Microsoft.CodeDom
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\FluentNHibernate.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.DataAccess.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.DataAccess.dll.config
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.pssym
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.csproj.AssemblyReference.cache
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.csproj.CoreCompileInputs.cache
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\PostSharp\touch
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\PostSharp\AdditionalBuildDependencies.txt
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\DevFramework.Northwind.MvcWebUI.pdb
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\bin\DevFramework.Northwind.MvcWebUI.pspdb
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\PostSharp\touch
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\PostSharp\AdditionalBuildDependencies.txt
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI\obj\Debug\PostSharp\postsharp.app.config

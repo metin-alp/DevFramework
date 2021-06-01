@@ -8,7 +8,7 @@ using PostSharp.Serialization;
 
 namespace DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net
 {
-    [PSerializableAttribute]
+    [Serializable]
     public class LoggerService
     {
         private ILog _log;

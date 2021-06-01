@@ -156,6 +156,30 @@
             "PostSharp": {
               "target": "Package",
               "version": "[4.3.21, )"
+            },
+            "PostSharp.Patterns.Common": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Common.Redist": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Diagnostics": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Diagnostics.Log4Net": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Diagnostics.Redist": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Redist": {
+              "target": "Package",
+              "version": "[6.9.5, )"
             }
           }
         }

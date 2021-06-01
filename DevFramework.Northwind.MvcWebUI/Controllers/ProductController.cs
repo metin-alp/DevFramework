@@ -19,11 +19,9 @@ namespace DevFramework.Northwind.MvcWebUI.Controllers
         {
             _productService = productService;
         }
+
+        [LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
         public ActionResult Index()
-        {
-            return View();
-        }
-        public ActionResult List()
         {
             var model = new ProductListViewModel
             {
@@ -31,5 +29,17 @@ namespace DevFramework.Northwind.MvcWebUI.Controllers
             };
             return View(model);
         }
+
+        /*
+        [LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
+        public ActionResult List()
+        {
+            var Model = new ProductListViewModel
+            {
+                Products = _productService.GetAll()
+            };
+            return View(Model);
+        }
+        */
     }
 }
