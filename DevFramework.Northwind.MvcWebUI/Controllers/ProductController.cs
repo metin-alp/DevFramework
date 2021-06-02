@@ -20,7 +20,7 @@ namespace DevFramework.Northwind.MvcWebUI.Controllers
             _productService = productService;
         }
 
-        [LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
+        //[LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
         public ActionResult Index()
         {
             var model = new ProductListViewModel

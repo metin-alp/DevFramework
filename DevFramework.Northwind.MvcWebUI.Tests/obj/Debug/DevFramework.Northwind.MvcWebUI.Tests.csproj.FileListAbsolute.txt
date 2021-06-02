@@ -79,15 +79,15 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\Syste
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\System.Text.Encodings.Web.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.MvcWebUI.dll
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Entities.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Business.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Core.dll
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Entities.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.DataAccess.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.MvcWebUI.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.MvcWebUI.dll.config
+F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Entities.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Business.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Core.pdb
-F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.Entities.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.DataAccess.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\bin\Debug\DevFramework.Northwind.DataAccess.dll.config
 F:\Workspaces\DevFramework\DevFramework.Northwind.MvcWebUI.Tests\obj\Debug\DevFramework.Northwind.MvcWebUI.Tests.csproj.AssemblyReference.cache

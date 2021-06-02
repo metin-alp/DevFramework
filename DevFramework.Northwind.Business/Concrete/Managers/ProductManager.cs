@@ -18,7 +18,7 @@ using DevFramework.Northwind.Business.ValidationRules.FluentValidation;
 using DevFramework.Core.CrossCuttingConcerns.Validation.FluentValidation;
 using log4net;
 using PostSharp.Aspects;
-
+using PostSharp.Serialization;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
@@ -41,7 +41,8 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
             return _productDal.Add(product);
         }
         //[CacheAspect(typeof(MemoryCacheManager))]
-        [LogAspect(typeof(DatabaseLogger))]
+        //[LogAspect(typeof(DatabaseLogger))]
+        [LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
         [LogAspect(typeof(FileLogger))]
         public List<Product> GetAll()
         {

@@ -1,3 +1,5 @@
+F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pssym
+F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pspdb
 F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll
 F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pdb
 F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\Antlr3.Runtime.dll
@@ -65,6 +67,9 @@ F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\System.Text.Encodings.Web
 F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csproj.AssemblyReference.cache
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csproj.CoreCompileInputs.cache
+F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\PostSharp\touch
+F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\PostSharp\AdditionalBuildDependencies.txt
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.pdb
+F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\PostSharp\postsharp.app.config

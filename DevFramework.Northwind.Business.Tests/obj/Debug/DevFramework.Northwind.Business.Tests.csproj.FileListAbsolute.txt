@@ -1,3 +1,5 @@
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\DevFramework.Northwind.Business.Tests.pssym
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\DevFramework.Northwind.Business.Tests.pspdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\NUnit3.TestAdapter.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\NUnit3.TestAdapter.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\nunit.engine.dll
@@ -99,6 +101,9 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\bin\Debug\DevFr
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csproj.AssemblyReference.cache
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.dll.config
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csproj.CoreCompileInputs.cache
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\PostSharp\touch
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\PostSharp\AdditionalBuildDependencies.txt
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\DevFramework.Northwind.Business.Tests.pdb
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business.Tests\obj\Debug\PostSharp\postsharp.app.config

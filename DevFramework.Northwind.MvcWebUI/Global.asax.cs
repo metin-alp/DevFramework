@@ -26,6 +26,8 @@ namespace DevFramework.Northwind.MvcWebUI
             RouteConfig.RegisterRoutes(RouteTable.Routes); 
 
             ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory(new BusinessModule()));
+            log4net.Config.XmlConfigurator.Configure();
+
 
         }
     }

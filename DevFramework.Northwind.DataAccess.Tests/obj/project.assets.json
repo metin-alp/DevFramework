@@ -717,13 +717,19 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.3.21": {
+      "PostSharp/6.9.5": {
         "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
         "compile": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
         },
         "runtime": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PostSharp.Patterns.Common/6.9.5": {
@@ -963,7 +969,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.3.21",
+          "PostSharp": "6.9.5",
           "PostSharp.Patterns.Diagnostics": "6.9.5",
           "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
@@ -1723,13 +1729,19 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.3.21": {
+      "PostSharp/6.9.5": {
         "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
         "compile": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
         },
         "runtime": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PostSharp.Patterns.Common/6.9.5": {
@@ -1953,7 +1965,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.3.21",
+          "PostSharp": "6.9.5",
           "PostSharp.Patterns.Diagnostics": "6.9.5",
           "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
@@ -2713,13 +2725,19 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.3.21": {
+      "PostSharp/6.9.5": {
         "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
         "compile": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
         },
         "runtime": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PostSharp.Patterns.Common/6.9.5": {
@@ -2943,7 +2961,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.3.21",
+          "PostSharp": "6.9.5",
           "PostSharp.Patterns.Diagnostics": "6.9.5",
           "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
@@ -3703,13 +3721,19 @@
           "lib/net45/Ninject.Web.Common.WebHost.dll": {}
         }
       },
-      "PostSharp/4.3.21": {
+      "PostSharp/6.9.5": {
         "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.9.5, 7.0.0)"
+        },
         "compile": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
         },
         "runtime": {
-          "lib/net35-client/PostSharp.dll": {}
+          "lib/net35-client/_._": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
       "PostSharp.Patterns.Common/6.9.5": {
@@ -3933,7 +3957,7 @@
           "Newtonsoft.Json": "13.0.1",
           "Ninject": "3.2.2",
           "Ninject.MVC5": "3.3.0",
-          "PostSharp": "4.3.21",
+          "PostSharp": "6.9.5",
           "PostSharp.Patterns.Diagnostics": "6.9.5",
           "PostSharp.Patterns.Diagnostics.Log4Net": "6.9.5",
           "System.Runtime.Caching": "5.0.0",
@@ -5078,28 +5102,41 @@
         "ninject.web.common.webhost.nuspec"
       ]
     },
-    "PostSharp/4.3.21": {
-      "sha512": "yRwyl2tNIur8d9JJJEMcjO2Cx909L+H8deQKim03Br4igM6si/dnFy5axbch/O3/wR0ncZwKnw1365F4CZRVfQ==",
+    "PostSharp/6.9.5": {
+      "sha512": "BSeAuuj0xeANHt0fS99W1jELGwI5DQiQnhKrVO5Ld5GH65ODtW0FUgiqCeuTlRCFHp6i6xwWp9Dlj7HwlY5hCQ==",
       "type": "package",
-      "path": "postsharp/4.3.21",
-      "hasTools": true,
+      "path": "postsharp/6.9.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net35-client/PostSharp.dll",
-        "lib/net35-client/PostSharp.xml",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.dll",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.xml",
-        "postsharp.4.3.21.nupkg.sha512",
-        "postsharp.nuspec",
-        "tools/PostSharp-Tools.exe",
-        "tools/PostSharp.MSBuild.v4.3.21.Release.dll",
-        "tools/PostSharp.Version.properties",
-        "tools/PostSharp.properties",
-        "tools/PostSharp.targets",
-        "tools/PostSharp.tasks",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.html",
+        "build/PostSharp-Tools.7z",
+        "build/PostSharp.BeforeTargetFrameworkInference.targets",
+        "build/PostSharp.Version.properties",
+        "build/PostSharp.properties",
+        "build/PostSharp.props",
+        "build/PostSharp.targets",
+        "build/PostSharp.tasks",
+        "build/_common/unzipper/SharpCompress.dll",
+        "build/_common/unzipper/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/_common/unzipper/System.Text.Encoding.CodePages.dll",
+        "build/_common/unzipper/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "build/_common/unzipper/unzipper.deps.json",
+        "build/_common/unzipper/unzipper.dll",
+        "build/_common/unzipper/unzipper.exe",
+        "build/_common/unzipper/unzipper.exe.config",
+        "build/_common/unzipper/unzipper.pdb",
+        "build/_common/unzipper/unzipper.runtimeconfig.json",
+        "build/net472/PostSharp.MSBuild.v6.9.5.Release.dll",
+        "build/net472/PostSharp.MSBuild.v6.9.5.Release.pdb",
+        "build/netcoreapp2.1/PostSharp.MSBuild.v6.9.5.Release.dll",
+        "build/netcoreapp2.1/PostSharp.MSBuild.v6.9.5.Release.pdb",
+        "icon.png",
+        "lib/net35-client/_._",
+        "lib/netstandard1.0/_._",
+        "postsharp.6.9.5.nupkg.sha512",
+        "postsharp.nuspec"
       ]
     },
     "PostSharp.Patterns.Common/6.9.5": {
@@ -5743,19 +5780,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.DataAccess.Tests -> DevFramework.Core -> PostSharp.Patterns.Diagnostics 6.9.5 -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.DataAccess.Tests -> DevFramework.Core -> PostSharp (>= 4.3.21)",
-      "libraryId": "PostSharp",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    },
     {
       "code": "NU1605",
       "level": "Warning",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YysKqpSdgvqOXiZlg4BlXwpMIvimx9M7wxIlx1sYdbkIHoIsGx5YCZ08QQZHR2Vs2NGEDGv9mUbTibKGG77JCw==",
+  "dgSpecHash": "xgXI7/BGBk1rfQjaMflFSR4+nO9dRxfSCrVb6+gWtPClMwXr2qd1+BTpHSOkCs1HhDhUk43wEZ6Pa9jp1aeDdA==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.DataAccess.Tests\\DevFramework.Northwind.DataAccess.Tests.csproj",
   "expectedPackageFiles": [
@@ -59,7 +59,7 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.mvc5\\3.3.0\\ninject.mvc5.3.3.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.web.common\\3.3.0\\ninject.web.common.3.3.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\ninject.web.common.webhost\\3.3.0\\ninject.web.common.webhost.3.3.0.nupkg.sha512",
-    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp\\4.3.21\\postsharp.4.3.21.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp\\6.9.5\\postsharp.6.9.5.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.common\\6.9.5\\postsharp.patterns.common.6.9.5.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.common.redist\\6.9.5\\postsharp.patterns.common.redist.6.9.5.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\postsharp.patterns.diagnostics\\6.9.5\\postsharp.patterns.diagnostics.6.9.5.nupkg.sha512",
@@ -80,19 +80,6 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: PostSharp from 6.9.5 to 4.3.21. Reference the package directly from the project to select a different version. \r\n DevFramework.Northwind.DataAccess.Tests -> DevFramework.Core -> PostSharp.Patterns.Diagnostics 6.9.5 -> PostSharp.Patterns.Common 6.9.5 -> PostSharp (>= 6.9.5 && < 7.0.0) \r\n DevFramework.Northwind.DataAccess.Tests -> DevFramework.Core -> PostSharp (>= 4.3.21)",
-      "libraryId": "PostSharp",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.7.2",
-        ".NETFramework,Version=v4.7.2/win",
-        ".NETFramework,Version=v4.7.2/win-x64",
-        ".NETFramework,Version=v4.7.2/win-x86"
-      ]
-    },
     {
       "code": "NU1605",
       "level": "Warning",

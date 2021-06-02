@@ -1,3 +1,5 @@
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.pssym
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.pspdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Business.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\Antlr3.Runtime.dll
@@ -81,6 +83,9 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramewor
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\DevFramework.Northwind.Entities.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.csproj.AssemblyReference.cache
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.csproj.CoreCompileInputs.cache
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\PostSharp\touch
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\PostSharp\AdditionalBuildDependencies.txt
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.pdb
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\PostSharp\postsharp.app.config

@@ -68,7 +68,7 @@
             },
             "PostSharp": {
               "target": "Package",
-              "version": "[4.3.21, )"
+              "version": "[6.9.5, )"
             },
             "PostSharp.Patterns.Diagnostics": {
               "target": "Package",
@@ -155,7 +155,7 @@
             },
             "PostSharp": {
               "target": "Package",
-              "version": "[4.3.21, )"
+              "version": "[6.9.5, )"
             },
             "PostSharp.Patterns.Common": {
               "target": "Package",

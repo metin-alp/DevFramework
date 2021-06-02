@@ -16,6 +16,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)postsharp\6.9.5\build\PostSharp.props" Condition="Exists('$(NuGetPackageRoot)postsharp\6.9.5\build\PostSharp.props')" />
     <Import Project="$(NuGetPackageRoot)nunit3testadapter\3.16.1\build\net35\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\3.16.1\build\net35\NUnit3TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)nunit\3.12.0\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.12.0\build\NUnit.props')" />
     <Import Project="$(NuGetPackageRoot)mstest.testadapter\2.1.2\build\net45\MSTest.TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\2.1.2\build\net45\MSTest.TestAdapter.props')" />
@@ -24,7 +25,6 @@
     <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgPostSharp Condition=" '$(PkgPostSharp)' == '' ">C:\Users\PelinAlp\.nuget\packages\postsharp\4.3.21</PkgPostSharp>
     <PkgPostSharp_Patterns_Common Condition=" '$(PkgPostSharp_Patterns_Common)' == '' ">C:\Users\PelinAlp\.nuget\packages\postsharp.patterns.common\6.9.5</PkgPostSharp_Patterns_Common>
     <PkgPostSharp_Patterns_Diagnostics Condition=" '$(PkgPostSharp_Patterns_Diagnostics)' == '' ">C:\Users\PelinAlp\.nuget\packages\postsharp.patterns.diagnostics\6.9.5</PkgPostSharp_Patterns_Diagnostics>
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\PelinAlp\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>

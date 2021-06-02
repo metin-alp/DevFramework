@@ -59,7 +59,7 @@
       <Version>3.2.2</Version>
     </PackageReference>
     <PackageReference Include="PostSharp">
-      <Version>4.3.21</Version>
+      <Version>6.9.5</Version>
     </PackageReference>
     <PackageReference Include="PostSharp.Patterns.Common">
       <Version>6.9.5</Version>

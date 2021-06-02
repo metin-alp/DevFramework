@@ -16,8 +16,9 @@ using log4net.Config;
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]
 //[assembly: RepositoryAttribute("DevFramework.Northwind.MvcWebUI")]
-[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+//[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 //[assembly: XmlConfigurator()]
 //[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]
 
