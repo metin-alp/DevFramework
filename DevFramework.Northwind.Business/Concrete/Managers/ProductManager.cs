@@ -22,28 +22,25 @@ using PostSharp.Serialization;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
-
     public class ProductManager : IProductService
     {
-        IProductDal _productDal;
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private IProductDal _productDal;
 
         public ProductManager(IProductDal productDal)
         {
             _productDal = productDal;
         }
 
-        //[FluentValidationAspect(typeof(ProductValidator))]
-        //[CacheRemoveAspect(typeof(MemoryCacheManager))]
+        //private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        [FluentValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect(typeof(MemoryCacheManager))]
         public Product Add(Product product)
         {
             ValidatorTool.FluentValidate(new ProductValidator(), product);
             return _productDal.Add(product);
         }
-        //[CacheAspect(typeof(MemoryCacheManager))]
-        //[LogAspect(typeof(DatabaseLogger))]
-        [LogAspect(typeof(DevFramework.Core.CrossCuttingConcerns.Logging.Log4Net.Loggers.DatabaseLogger))]
-        [LogAspect(typeof(FileLogger))]
+        [CacheAspect(typeof(MemoryCacheManager))]
         public List<Product> GetAll()
         {
             return _productDal.GetList();

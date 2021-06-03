@@ -10,7 +10,7 @@ using log4net.Config;
 [assembly: Debuggable(true, true)]
 [assembly: AssemblyTitle("DevFramework.Northwind.MvcWebUI")]
 [assembly: AssemblyDescription("")]
-//[assembly: AssemblyConfiguration("")]
+//[assembly: AssemblyConfiguration("DevFramework.Northwind.MvcWebUI.log4net.config")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DevFramework.Northwind.MvcWebUI")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]

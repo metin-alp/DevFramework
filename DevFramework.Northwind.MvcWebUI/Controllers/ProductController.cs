@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using DevFramework.Core.Aspects.Postsharp.LogAspects;
 using DevFramework.Northwind.Business.Abstract;
+using DevFramework.Northwind.Entities.Concrete;
 using DevFramework.Northwind.MvcWebUI.Models;
 
 
@@ -28,6 +29,17 @@ namespace DevFramework.Northwind.MvcWebUI.Controllers
                 Products = _productService.GetAll()
             };
             return View(model);
+        }
+        public string Add()
+        {
+            _productService.Add(new Product
+            {
+                CategoryId = 1,
+                ProductName = "Gsm",
+                QuantityPerUnit = "1",
+                UnitPrice = 21
+            });
+            return "Added";
         }
 
         /*

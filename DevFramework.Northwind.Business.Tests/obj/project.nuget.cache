@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "43d5wUToR+LZfTW9vmo348JEyJrDeqLGPpS0m8ZMc7oeRAOB9VVH4MoUWzA01eexOlU4PDANoNRCF/+iq/28WQ==",
+  "dgSpecHash": "K7uTL6SiAuMOhHXi7aAJR42YUvSUGIvW4b1ukTQJBzh10SA0vyjZ2aKvF6OWjkBtjW1APvBuVGGfOmOHW7VDPA==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.Business.Tests\\DevFramework.Northwind.Business.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\PelinAlp\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentnhibernate\\3.1.0\\fluentnhibernate.3.1.0.nupkg.sha512",
-    "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentvalidation\\10.2.0\\fluentvalidation.10.2.0.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

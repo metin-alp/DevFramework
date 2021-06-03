@@ -20,7 +20,7 @@ namespace DevFramework.Core.Aspects.Postsharp.LogAspects
     //[PSerializableAttribute]
     [Serializable]
     //[OnMethodBoundaryAspectConfiguration(SerializerType = typeof(MsilAspectSerializer))]
-    //[MulticastAttributeUsage(MulticastTargets.Method, TargetMemberAttributes = MulticastAttributes.Instance)]
+    [MulticastAttributeUsage(MulticastTargets.Method, TargetMemberAttributes = MulticastAttributes.Instance)]
     public class LogAspect : OnMethodBoundaryAspect
     {
 

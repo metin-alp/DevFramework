@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation">
-      <Version>10.2.0</Version>
+      <Version>10.2.3</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk">
       <Version>16.5.0</Version>
