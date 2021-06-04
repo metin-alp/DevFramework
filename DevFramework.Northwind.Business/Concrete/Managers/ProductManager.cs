@@ -21,6 +21,7 @@ using PostSharp.Aspects;
 using PostSharp.Serialization;
 using DevFramework.Core.Aspects.Postsharp.PerformanceAspects;
 using System.Threading;
+using DevFramework.Core.Aspects.Postsharp.AuthorizationAspects;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
@@ -44,6 +45,7 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
         }
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformanceCounterAspect(2)]
+        [SecuredOperation(Roles="Admin,Editor")]
         public List<Product> GetAll()
         {
             Thread.Sleep(2000);
