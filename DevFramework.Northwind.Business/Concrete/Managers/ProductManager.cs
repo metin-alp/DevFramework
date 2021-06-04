@@ -19,6 +19,8 @@ using DevFramework.Core.CrossCuttingConcerns.Validation.FluentValidation;
 using log4net;
 using PostSharp.Aspects;
 using PostSharp.Serialization;
+using DevFramework.Core.Aspects.Postsharp.PerformanceAspects;
+using System.Threading;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
@@ -41,8 +43,10 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
             return _productDal.Add(product);
         }
         [CacheAspect(typeof(MemoryCacheManager))]
+        [PerformanceCounterAspect(2)]
         public List<Product> GetAll()
         {
+            Thread.Sleep(2000);
             return _productDal.GetList();
         }
 
@@ -50,7 +54,8 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
         {
             return _productDal.Get(p => p.ProductId == id);
         }
-        //[TransactionScopeAspect]
+        [TransactionScopeAspect]
+        [FluentValidationAspect(typeof(ProductValidator))]
         public void TransactionalOperation(Product product1, Product product2)
         {
 
@@ -59,7 +64,7 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
 
         }
 
-        //[FluentValidationAspect(typeof(ProductValidator))]
+        [FluentValidationAspect(typeof(ProductValidator))]
         public Product Update(Product product)
         {
             ValidatorTool.FluentValidate(new ProductValidator(), product);
