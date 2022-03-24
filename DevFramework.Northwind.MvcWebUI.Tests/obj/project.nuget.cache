@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PAs7qy6U473Taju/ZCcn4w7flWN8LtVPWKVb9QoIalYAELGUle4IvNzt9xoDCSMzjC1M8TKlcWv+J7x47XqEaA==",
+  "dgSpecHash": "g3NjLLHoiIRErJfGnYBBHEKNw47OgGJOntr6Nv7jIM1nQD+7WuJacvITqKktXFVCxGc4BYqYVJn2P+2OoxMkNA==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Northwind.MvcWebUI.Tests\\DevFramework.Northwind.MvcWebUI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PelinAlp\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentnhibernate\\3.1.0\\fluentnhibernate.3.1.0.nupkg.sha512",

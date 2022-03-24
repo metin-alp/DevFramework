@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OC1sHtNkL+nZ+3BaL+++PsFAdIuSufruImNKM5OHjs21g8Vo8W26bEoiROPydL9CAN33jkOot80wHQL483ZVOQ==",
+  "dgSpecHash": "ZtmIfk7PlJnN4YY/7bEm1OhpU9U/msJwxqYkV3RoQqq2x7raPOb5eL3a1zU3ZijOMl+SBi+IDkG8tfrXFGy26g==",
   "success": true,
   "projectFilePath": "F:\\Workspaces\\DevFramework\\DevFramework.Core\\DevFramework.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PelinAlp\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
+    "C:\\Users\\PelinAlp\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentnhibernate\\3.1.0\\fluentnhibernate.3.1.0.nupkg.sha512",
     "C:\\Users\\PelinAlp\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",

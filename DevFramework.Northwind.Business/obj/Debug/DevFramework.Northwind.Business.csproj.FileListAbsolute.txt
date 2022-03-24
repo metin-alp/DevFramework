@@ -89,3 +89,4 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramewor
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\DevFramework.Northwind.Business.pdb
 F:\Workspaces\DevFramework\DevFramework.Northwind.Business\obj\Debug\PostSharp\postsharp.app.config
+F:\Workspaces\DevFramework\DevFramework.Northwind.Business\bin\Debug\AutoMapper.dll

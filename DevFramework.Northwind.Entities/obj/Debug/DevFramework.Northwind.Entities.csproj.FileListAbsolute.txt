@@ -26,3 +26,4 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramewor
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\obj\Debug\DevFramework.Northwind.Entities.pdb
+F:\Workspaces\DevFramework\DevFramework.Northwind.Entities\bin\Debug\AutoMapper.dll

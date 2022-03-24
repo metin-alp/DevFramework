@@ -22,16 +22,20 @@ using PostSharp.Serialization;
 using DevFramework.Core.Aspects.Postsharp.PerformanceAspects;
 using System.Threading;
 using DevFramework.Core.Aspects.Postsharp.AuthorizationAspects;
+using AutoMapper;
+using DevFramework.Core.Utilities.Mappings;
 
 namespace DevFramework.Northwind.Business.Concrete.Managers
 {
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
+        private IMapper _mapper;
 
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal,IMapper mapper)
         {
             _productDal = productDal;
+            _mapper = mapper;
         }
 
         //private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
@@ -45,12 +49,26 @@ namespace DevFramework.Northwind.Business.Concrete.Managers
         }
         [CacheAspect(typeof(MemoryCacheManager))]
         [PerformanceCounterAspect(2)]
-        [SecuredOperation(Roles="Admin,Editor")]
+        //[SecuredOperation(Roles="Admin,Editor,Student")]
         public List<Product> GetAll()
         {
-            Thread.Sleep(2000);
-            return _productDal.GetList();
+            //Thread.Sleep(2000);
+            //return _productDal.GetList().Select(p => new Product
+            //{
+            //    CategoryId = p.CategoryId,
+            //    ProductId = p.ProductId,
+            //    ProductName = p.ProductName,
+            //    QuantityPerUnit = p.QuantityPerUnit,
+            //    UnitPrice = p.UnitPrice
+            //}).ToList() ;
+
+            //var products = AutoMapperHelper.MapToSameTypeList(_productDal.GetList());
+            var products = _mapper.Map<List<Product>>(_productDal.GetList());
+            return products;
+            
         }
+
+       
 
         public Product GetById(int id)
         {

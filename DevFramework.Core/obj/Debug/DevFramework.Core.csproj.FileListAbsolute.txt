@@ -73,3 +73,4 @@ F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csproj.
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.pdb
 F:\Workspaces\DevFramework\DevFramework.Core\obj\Debug\PostSharp\postsharp.app.config
+F:\Workspaces\DevFramework\DevFramework.Core\bin\Debug\AutoMapper.dll

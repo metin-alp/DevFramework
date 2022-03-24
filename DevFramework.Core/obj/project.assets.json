@@ -11,6 +11,15 @@
           "lib/net40-client/Antlr3.Runtime.dll": {}
         }
       },
+      "AutoMapper/6.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -829,6 +838,15 @@
           "lib/net40-client/Antlr3.Runtime.dll": {}
         }
       },
+      "AutoMapper/6.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -1631,6 +1649,15 @@
           "lib/net40-client/Antlr3.Runtime.dll": {}
         }
       },
+      "AutoMapper/6.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -2431,6 +2458,15 @@
         },
         "runtime": {
           "lib/net40-client/Antlr3.Runtime.dll": {}
+        }
+      },
+      "AutoMapper/6.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -3244,6 +3280,23 @@
         "lib/netstandard1.1/Antlr3.Runtime.xml",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr3.Runtime.dll",
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr3.Runtime.xml"
+      ]
+    },
+    "AutoMapper/6.1.1": {
+      "sha512": "A+6PAblvzmkXPS20nFBQJvlNSW5oEdyfN5+cxT/Du35fTNyuP5pNDXT64KT/jBgxt7CPduOM0Y7oLnNe0E5IXg==",
+      "type": "package",
+      "path": "automapper/6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.6.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/netstandard1.1/AutoMapper.dll",
+        "lib/netstandard1.1/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.xml"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -4527,6 +4580,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "AutoMapper >= 6.1.1",
       "EntityFramework >= 6.4.4",
       "FluentNHibernate >= 3.1.0",
       "FluentValidation >= 10.2.3",
@@ -4575,6 +4629,10 @@
     "frameworks": {
       "net472": {
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[6.1.1, )"
+          },
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"

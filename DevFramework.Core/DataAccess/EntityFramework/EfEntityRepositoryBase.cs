@@ -48,7 +48,8 @@ namespace DevFramework.Core.DataAccess.EntityFramework
             using (var context = new TContext())
             {
                 context.Database.Connection.Open();
-                return filter == null ? context.Set<TEntity>().ToList()
+                return filter == null 
+                    ? context.Set<TEntity>().ToList()
                     : context.Set<TEntity>().Where(filter).ToList();
             }
         }

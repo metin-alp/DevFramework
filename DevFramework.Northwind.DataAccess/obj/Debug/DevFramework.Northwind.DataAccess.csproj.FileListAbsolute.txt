@@ -82,3 +82,4 @@ F:\Workspaces\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramew
 F:\Workspaces\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.csproj.CopyComplete
 F:\Workspaces\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.dll
 F:\Workspaces\DevFramework\DevFramework.Northwind.DataAccess\obj\Debug\DevFramework.Northwind.DataAccess.pdb
+F:\Workspaces\DevFramework\DevFramework.Northwind.DataAccess\bin\Debug\AutoMapper.dll
